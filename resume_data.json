@@ -1,0 +1,37 @@
+{
+  "personal_info": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "(555) 123-4567",
+    "address": "123 Main St, City, State 12345"
+  },
+  "experience": [
+    {
+      "company": "ABC Corporation",
+      "position": "Senior Software Engineer",
+      "duration": "Jan 2020 - Present",
+      "responsibilities": [
+        "Led development of cloud-based applications",
+        "Mentored junior developers",
+        "Implemented CI/CD pipelines"
+      ]
+    },
+    {
+      "company": "XYZ Solutions",
+      "position": "Software Engineer",
+      "duration": "Jun 2017 - Dec 2019",
+      "responsibilities": [
+        "Developed web applications using Python and JavaScript",
+        "Collaborated with cross-functional teams",
+        "Optimized database queries for performance"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Technology",
+      "year": "2017"
+    }
+  ]
+}
