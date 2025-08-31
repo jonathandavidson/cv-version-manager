@@ -31,4 +31,4 @@ for edu in resume_data['education']:
     doc.add_paragraph(edu['year'])
 
 # Save the document
-doc.save('resume.docx')
+doc.save('resumes/resume.docx')
