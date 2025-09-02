@@ -1,15 +1,53 @@
 {
-  "personal_info": {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "(555) 123-4567",
-    "address": "123 Main St, City, State 12345"
-  },
-  "experience": [
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "(555) 123-4567",
+  "address": "123 Main St, City, State 12345",
+  "websites": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/johndoe"
+    },
+    {
+      "name": "GitHub",
+      "url": "github.com/johndoe"
+    }
+  ],
+  "professional_summary": "Experienced software engineer with a strong background in developing scalable web applications and working across the full stack.",
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "names": ["Python", "JavaScript", "Java"]
+    },
+    {
+      "category": "Frameworks",
+      "names": ["Django", "React", "Node.js"]
+    },
+    {
+      "category": "Databases",
+      "names": ["PostgreSQL", "MySQL", "MongoDB"]
+    },
+    {
+      "category": "Tools & Platforms",
+      "names": ["Git", "Docker", "AWS"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "date": "January 2021"
+    },
+    {
+      "name": "Certified Scrum Master",
+      "date": "March 2020"
+    }
+  ],
+  "experiences": [
     {
       "company": "ABC Corporation",
       "position": "Senior Software Engineer",
-      "duration": "Jan 2020 - Present",
+      "start_date": "Jan 2020",
+      "end_date": "Present",
       "responsibilities": [
         "Led development of cloud-based applications",
         "Mentored junior developers",
@@ -19,7 +57,8 @@
     {
       "company": "XYZ Solutions",
       "position": "Software Engineer",
-      "duration": "Jun 2017 - Dec 2019",
+      "start_date": "Jun 2017",
+      "end_date": "Dec 2019",
       "responsibilities": [
         "Developed web applications using Python and JavaScript",
         "Collaborated with cross-functional teams",
@@ -27,11 +66,12 @@
       ]
     }
   ],
-  "education": [
+  "educations": [
     {
-      "degree": "Bachelor of Science in Computer Science",
+      "degree": "Bachelor of Science",
+      "major": "Computer Science",
       "institution": "University of Technology",
-      "year": "2017"
+      "graduation_date": "2017"
     }
   ]
 }
