@@ -4,6 +4,10 @@ import json
 import sys
 from docxtpl import DocxTemplate
 
+# Load configuration
+with open('config.json', 'r') as f:
+    config = json.load(f)
+
 # Check if a JSON file path is provided as a command-line argument
 if len(sys.argv) < 2:
     print("Usage: python run.py <path_to_json_file>")
@@ -22,4 +26,4 @@ template.render(resume_data)
 
 # Save the rendered document
 output_file_path = json_file_path.replace('.json', '.docx')
-template.save(f'generated/{output_file_path.split("/")[-1]}')
+template.save(f'{config["output_directory"]}{output_file_path.split("/")[-1]}')
