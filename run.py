@@ -21,4 +21,5 @@ template = DocxTemplate('templates/default.docx')
 template.render(resume_data)
 
 # Save the rendered document
-template.save('generated/resume.docx')
+output_file_path = json_file_path.replace('.json', '.docx')
+template.save(f'generated/{output_file_path.split("/")[-1]}')
